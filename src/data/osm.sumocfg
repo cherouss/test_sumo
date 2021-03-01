@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 12/23/20 23:45:35 by Eclipse SUMO sumo Version 1.7.0
+-->
+
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="new_intersection_5.net.xml"/>
+        <route-files value="cars.rou.xml"/>
+        <additional-files value = 'e2.add.xml'/>
+        
+    </input>
+
+    <processing>
+        <ignore-route-errors value="true"/>
+    </processing>
+
+    <routing>
+        <device.rerouting.adaptation-steps value="180"/>
+    </routing>
+
+    <report>
+        <verbose value="true"/>
+        <duration-log.statistics value="true"/>
+        <no-step-log value="true"/>
+    </report>
+</configuration>
